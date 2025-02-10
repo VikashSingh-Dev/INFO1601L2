@@ -11,9 +11,88 @@
  
     </nav>
     <h1>Home</h1>
+    <!--there are different types of links-->
+    <section id="Contact">
+      <h1>Contact</h1>
+      <br/>
+      <a href="tel:+123456789">Phone</a>
 
-  
+      <br/>
+      download my <a href="resume.pdf">resume</a>
+      <br/>
+      <a href="mailto:m.bluth@example.com">Email</a>
+      <br/>
+      <a href="https://google.com">Google</a>
+      <br/>
+      <a href="https://example.com">Website</a>
+      <br/>
+      <a href="about.html">About</a>
+      <br/>
+
+      take a look at my <a href="#references">references</a>
+    </section>
+    
+    <section id="references" style="margin-top: 100vh">
+      <h1>My References</h1>
+      <p>John Smith</p>
+      <p>Jane Doe</p>
+      <p>John Doe</p>
+
+    </section>
+    <!-- correct paths-->
+    <nav> 
+     
+      <a href="../index.html"><b>Index</b></a>
+      <a href="./pages/signup.html"><b>Sign UP</b></a>
+      <h1>Home</h1>
+    </nav>
+
+    <nav>
+      <a href="index.html"><b>Index</b></a>
+      <a href="./pages/signup.html"><b>Sign UP</b></a>
+      <h1>Home</h1>
+    </nav>
+    <!-- learn table formatting-->
+
+        <table border="solid">
+                <thead>
+                  <th>Item</th><th>Qty</th><th>Price</th><th>Total</th>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Milk</td><td>2</td><td>$8.00</td><td>$16.00</td>
+                 </tr>
+                  <tr>
+                        <td>Eggs Pack</td><td>1</td><td>$6.00</td><td>$6.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                        <td>Total</td><td></td><td></td><td>$22.00</td>                          </tr>
+                </tfoot>
+        </table>
+    <script src="script.js"></script>
+
+    <!-- learn about picture tag-->
+    <picture> 
+      <!-- Desktop (1024px and above) --> 
+       <source media="(min-width: 1024px)" srcset="https://placehold.co/  You, yesterday this two tes 1200x600/ff69b4/ffffff.jpg"> 
+       <!-- Tablet (768px to 1023p--> 
+        <source media="(min-width: 768px)" srcset="https://placehold.co/ 800x400/ffffff/000000.jpg"> 
+        <!-- Mobile (default, below 768px)-->
+        <img src="https://placehold.co/400x200/ffa500/ffffff.jpg" alt="Flowers" style="width:100%; max-width:100%;">
+    </picture>
+
+    <!-- learn about video tag-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AqL4RcC7a1Y?si=FVrxGFyzwM39YoeK" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+    <!--there are various input types...some covered in lab 1-->
+    <!--look at signup.html for some more info-->
+
+    google
+    
   </body>
 </html>
